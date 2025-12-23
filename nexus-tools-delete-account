@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Delete Account – Nexus Tools</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      padding: 24px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 720px;
+      margin: auto;
+      background: #020617;
+      padding: 24px;
+      border-radius: 12px;
+    }
+    h1, h2 {
+      color: #38bdf8;
+    }
+    a {
+      color: #38bdf8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Delete Account & Data – Nexus Tools</h1>
+
+    <p>
+      Users of <strong>Nexus Tools</strong> may request deletion of their account
+      and associated data at any time.
+    </p>
+
+    <h2>How to request account deletion</h2>
+    <ol>
+      <li>Email us at <strong>support@yourdomain.com</strong></li>
+      <li>Use the subject line: <strong>Delete My Account</strong></li>
+      <li>Send the request from the email associated with your Nexus Tools account</li>
+    </ol>
+
+    <h2>Data that will be deleted</h2>
+    <ul>
+      <li>User account information (email & authentication data)</li>
+      <li>Saved tools, preferences, and settings</li>
+      <li>Any synced or stored app data associated with the account</li>
+    </ul>
+
+    <h2>Data that may be retained</h2>
+    <p>
+      Minimal data may be retained for legal, security, or fraud-prevention
+      purposes. This data is retained for no longer than <strong>30 days</strong>
+      and is then permanently deleted.
+    </p>
+
+    <h2>Deletion timeline</h2>
+    <p>
+      Account deletion requests are processed within
+      <strong>7–14 business days</strong>. A confirmation email will be sent once
+      the deletion is complete.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      If you have any questions, please contact us at
+      <a href="mailto:support@yourdomain.com">support@yourdomain.com</a>.
+    </p>
+  </div>
+</body>
+</html>
