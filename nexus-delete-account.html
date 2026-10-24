@@ -2,73 +2,209 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Delete Account – Nexus Tools</title>
+  <title>Account & Data Deletion - Toolsy (formerly Nexus)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Account and data deletion instructions and policy for Toolsy (formerly Nexus) mobile application.">
   <style>
+    :root {
+      --bg: #0F172A;
+      --card-bg: #1E293B;
+      --text: #F1F5F9;
+      --text-muted: #94A3B8;
+      --primary: #6366F1;
+      --primary-hover: #4F46E5;
+      --danger: #EF4444;
+      --border: #334155;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
     body {
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
-      padding: 24px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
       line-height: 1.6;
+      padding: 32px 16px;
     }
     .container {
-      max-width: 720px;
-      margin: auto;
-      background: #020617;
-      padding: 24px;
-      border-radius: 12px;
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 36px 32px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
     }
-    h1, h2 {
-      color: #38bdf8;
+    .badge {
+      display: inline-block;
+      background: rgba(99, 102, 241, 0.15);
+      color: #818CF8;
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-bottom: 28px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+    }
+    h2 {
+      font-size: 1.35rem;
+      color: #38BDF8;
+      margin-top: 28px;
+      margin-bottom: 12px;
+    }
+    p {
+      color: var(--text);
+      margin-bottom: 14px;
+      font-size: 1rem;
+    }
+    ul, ol {
+      margin-left: 24px;
+      margin-bottom: 20px;
+      color: var(--text);
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .card {
+      background: rgba(15, 23, 42, 0.6);
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      border-radius: 8px;
+      margin: 18px 0;
+    }
+    .card-danger {
+      border-left-color: var(--danger);
+      background: rgba(239, 68, 68, 0.08);
+    }
+    .card-title {
+      font-weight: 600;
+      color: #FFFFFF;
+      margin-bottom: 6px;
     }
     a {
-      color: #38bdf8;
+      color: #38BDF8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--primary);
+      color: #FFFFFF;
+      padding: 10px 22px;
+      border-radius: 8px;
+      font-weight: 600;
+      margin-top: 8px;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background: var(--primary-hover);
+      text-decoration: none;
+    }
+    .footer {
+      margin-top: 36px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Delete Account & Data – Nexus Tools</h1>
+    <div class="badge">Google Play User Data Policy Compliance</div>
+    <h1>Account &amp; Data Deletion Request</h1>
+    <div class="subtitle">
+      Application: <strong>Toolsy</strong> (formerly <em>Nexus</em> | Package: <code>com.ar.nexusapp</code>)
+      <br>Last Updated: October 2026
+    </div>
 
     <p>
-      Users of <strong>Nexus Tools</strong> may request deletion of their account
-      and associated data at any time.
+      At <strong>Toolsy</strong>, we respect your privacy and provide transparent, straightforward options for users to delete their account and associated data at any time in compliance with Google Play's Account Deletion Policy.
     </p>
 
-    <h2>How to request account deletion</h2>
-    <ol>
-      <li>Email us at <strong>support@yourdomain.com</strong></li>
-      <li>Use the subject line: <strong>Delete My Account</strong></li>
-      <li>Send the request from the email associated with your Nexus Tools account</li>
-    </ol>
+    <h2>How to Request Account &amp; Data Deletion</h2>
+    <p>You can request full deletion of your account and data through either of the following two methods:</p>
 
-    <h2>Data that will be deleted</h2>
+    <div class="card">
+      <div class="card-title">Option 1: In-App Instant Deletion (Recommended)</div>
+      <p style="margin-bottom: 6px;">If you currently have the Toolsy app installed on your device:</p>
+      <ol style="margin-bottom: 0;">
+        <li>Open the <strong>Toolsy</strong> app.</li>
+        <li>Tap the <strong>Profile</strong> icon in the navigation bar.</li>
+        <li>Scroll to the bottom of the Profile screen.</li>
+        <li>Tap <strong>Delete Account</strong> and confirm your choice.</li>
+      </ol>
+      <p style="margin-top: 8px; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0;">
+        <em>Result: Your authentication credentials and all user profile records are deleted immediately.</em>
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Option 2: External Web / Email Request (Without App Installed)</div>
+      <p style="margin-bottom: 6px;">If you have uninstalled the app or prefer to request deletion via the web:</p>
+      <ol style="margin-bottom: 8px;">
+        <li>Send an email to our official support team at: <a href="mailto:nexusapp49@gmail.com?subject=Account%20and%20Data%20Deletion%20Request">nexusapp49@gmail.com</a></li>
+        <li>Use the Subject line: <strong>Account and Data Deletion Request - Toolsy</strong></li>
+        <li>Include the registered email address associated with your Toolsy account.</li>
+      </ol>
+      <p style="margin-bottom: 0;">
+        <a class="btn" href="mailto:nexusapp49@gmail.com?subject=Account%20and%20Data%20Deletion%20Request">Email Deletion Request</a>
+      </p>
+    </div>
+
+    <h2>Types of Data That Are Deleted</h2>
+    <p>Upon receiving and confirming an account deletion request, the following data is permanently purged:</p>
     <ul>
-      <li>User account information (email & authentication data)</li>
-      <li>Saved tools, preferences, and settings</li>
-      <li>Any synced or stored app data associated with the account</li>
+      <li><strong>User Authentication Credentials:</strong> Email address, User UID, login metadata, and linked auth identifiers stored in Firebase Authentication.</li>
+      <li><strong>Personal Profile Data:</strong> Display name, profile preferences, and account configuration stored in Cloud Firestore.</li>
+      <li><strong>User Created Content:</strong> All personal notes, checklist items, and task entries.</li>
+      <li><strong>Usage &amp; Analytics Logs:</strong> AI usage quotas, history logs, and download counters associated with your UID.</li>
     </ul>
 
-    <h2>Data that may be retained</h2>
+    <h2>Data That May Be Retained &amp; Legal Justification</h2>
+    <div class="card card-danger">
+      <div class="card-title">Retention Policy</div>
+      <p>
+        In accordance with Google Play developer policies and applicable law:
+      </p>
+      <ul style="margin-bottom: 0;">
+        <li><strong>Financial &amp; Billing Records:</strong> If you made an in-app purchase or active subscription processed via Stripe, transactional payment records (such as invoice ID, timestamp, and amount) are retained as required by financial, taxation, and anti-fraud regulations. We do not store full credit card numbers.</li>
+        <li><strong>Retention Period:</strong> Any legally required financial records are retained only for the minimum duration mandated by local tax law, after which they are securely purged.</li>
+      </ul>
+    </div>
+
+    <h2>Deletion Timeline</h2>
     <p>
-      Minimal data may be retained for legal, security, or fraud-prevention
-      purposes. This data is retained for no longer than <strong>30 days</strong>
-      and is then permanently deleted.
+      - <strong>In-App Deletion:</strong> Instantaneous upon user confirmation.<br>
+      - <strong>Web / Email Requests:</strong> Verified and executed within <strong>48 to 72 business hours</strong> (and no later than 30 days). A confirmation email is dispatched once deletion is concluded.
     </p>
 
-    <h2>Deletion timeline</h2>
+    <h2>Support &amp; Inquiries</h2>
     <p>
-      Account deletion requests are processed within
-      <strong>7–14 business days</strong>. A confirmation email will be sent once
-      the deletion is complete.
+      For any questions regarding your data, privacy, or deletion status, please reach out directly:
+      <br><strong>Developer Contact:</strong> <a href="mailto:nexusapp49@gmail.com">nexusapp49@gmail.com</a>
     </p>
 
-    <h2>Contact</h2>
-    <p>
-      If you have any questions, please contact us at
-      <a href="mailto:support@yourdomain.com">support@yourdomain.com</a>.
-    </p>
+    <div class="footer">
+      &copy; 2026 Toolsy. All rights reserved. &bull; <a href="privacy.html">Privacy Policy</a> &bull; <a href="terms.html">Terms of Service</a>
+    </div>
   </div>
 </body>
 </html>
